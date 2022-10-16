@@ -1,0 +1,71 @@
+ body {
+    margin: 0;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+ }
+
+ .header {
+    display: flex;
+    justify-content: space-between;
+    background-color: springgreen;
+    border: 1px solid black;
+ }
+
+ .logo {
+    background-color: orange;
+    text-align: center;
+    padding: 20px;
+    width: 7%;
+    border: 1px solid black;
+ }
+ 
+ .containerNav {
+    background-color: red;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    width: 55%;
+    text-align: center;
+}
+
+.navItems {
+    border: 1px solid black;
+    padding: 20px;
+    text-align: center;
+}
+
+.body {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.left {
+display: grid;
+grid-template-columns: auto;
+background-color: aqua;
+width: 15%;
+}
+
+.side {
+    border: 1px solid black;
+    padding: 15px;
+    /* font-size: 30px; */
+    text-align: center;
+}
+
+.right {
+    display: grid;
+    column-gap: 50px;
+    row-gap: 80px;
+    grid-template-columns: auto auto;
+    background-color: purple;
+    width: 85%;
+    padding: 35px;
+}
+
+.boxes {
+    background-color: pink;
+    border: 1px solid black;
+    font-size: 20px;
+    text-align: center;
+    padding: 20px;
+
+}
